@@ -1,39 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Ella School Character Report</title>
+<meta charset="UTF-8">
+<title>Ella School Character Report</title>
 
-  <style>
+<style>
+  body {
+    font-family: "Times New Roman", serif;
+    color: #000;
+  }
 
-  </style>
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+  }
+
+  .logo-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .school-info {
+    flex: 1;
+    text-align: center;
+  }
+
+  .school-info h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .school-info p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+
+  .photo-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+  }
+
+  .report-title {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 6px 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 6px;
+    font-size: 14px;
+    vertical-align: top;
+  }
+
+  th {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .subject {
+    width: 22%;
+    font-weight: bold;
+  }
+
+  .grade {
+    width: 8%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .signature {
+    height: 70px;
+  }
+</style>
 </head>
 
 <body>
 
-<div class="report-container">
+<div class="container">
 
-  
+  <div class="top-bar">
+    <div>12/18/25, 12:53 PM</div>
+    <div>Ella School Character Report</div>
+  </div>
+
   <div class="header">
-    <div class="logo-box">ES</div>
+    <div class="logo-box">LOGO</div>
 
     <div class="school-info">
       <h2>ELLA SCHOOL</h2>
       <p>P.O BOX ,</p>
       <p>Cell : 09069984272</p>
       <p>Email : ellaschoollimited@gmail.com</p>
-      <p><b>2025/2026</b></p>
+      <p><b>2025 / 2026</b></p>
     </div>
 
-    <div class="student-photo">
-      <img src="student.jpg" alt="Student Photo">
-    </div>
+    <div class="photo-box"></div>
   </div>
+  <div class="report-title">AUTUMN TERM REPORT</div>
 
- 
-  <div class="title">AUTUMN TERM REPORT</div>
-
-  
   <table>
     <tr>
       <td colspan="2"><b>STUDENT'S NAME:</b> PRINAN N JAYSON</td>
@@ -50,25 +148,117 @@
     </tr>
   </table>
 
-  
   <table>
-    <tr>
-      <th>Subject</th>
-      <th>Skills</th>
-      <th>Grade</th>
-    </tr>
+    <tr><th>Subject</th><th>Skills</th><th>Grade</th></tr>
 
-   
     <tr>
       <td class="subject" rowspan="9">Communication And Language Development</td>
       <td>Listens with interest to the noises adults make when they read stories.</td>
       <td class="grade">Q3</td>
     </tr>
+    <tr><td>Recognises and responds to many familiar sounds.</td><td class="grade">Q3</td></tr>
+    <tr><td>Maintains eye contact with peers and adults.</td><td class="grade">Q3</td></tr>
+    <tr><td>Identifies action words.</td><td class="grade">Q2</td></tr>
+    <tr><td>Understands more complex sentences.</td><td class="grade">Q3</td></tr>
+    <tr><td>Understands simple questions.</td><td class="grade">Q3</td></tr>
+    <tr><td>Uses gestures.</td><td class="grade">Q3</td></tr>
+    <tr><td>Uses vocabulary for important people.</td><td class="grade">Q3</td></tr>
+    <tr><td>Uses vocabulary focused on objects.</td><td class="grade">Q3</td></tr>
+
     <tr>
-      <td>Recognises and responds to many familiar sounds.</td>
-      <td class="grade">Q3</td>
+      <td class="subject" rowspan="11">Personal Social And Emotional Development</td>
+      <td>Interested in others’ play.</td><td class="grade">Q3</td>
+    </tr>
+    <tr><td>Shows affection.</td><td class="grade">Q3</td></tr>
+    <tr><td>Shares and takes turns.</td><td class="grade">Q3</td></tr>
+    <tr><td>Separates with support.</td><td class="grade">Q3</td></tr>
+    <tr><td>Points to self in photos.</td><td class="grade">Q3</td></tr>
+    <tr><td>Imitates drawing shapes.</td><td class="grade">Q2</td></tr>
+    <tr><td>Shows excitement after tasks.</td><td class="grade">Q3</td></tr>
+    <tr><td>Seeks comfort.</td><td class="grade">Q3</td></tr>
+    <tr><td>Expresses feelings.</td><td class="grade">Q3</td></tr>
+    <tr><td>Comfort others.</td><td class="grade">Q3</td></tr>
+    <tr><td>Follows routines.</td><td class="grade">Q3</td></tr>
+
+    <tr>
+      <td class="subject" rowspan="3">Physical Development</td>
+      <td>Runs safely.</td><td class="grade">Q3</td>
+    </tr>
+    <tr><td>Kicks a ball.</td><td class="grade">Q4</td></tr>
+    <tr><td>Turns book pages.</td><td class="grade">Q3</td></tr>
+  </table>
+
+  <table>
+    <tr><th>Subject</th><th>Skills</th><th>Grade</th></tr>
+
+    <tr>
+      <td class="subject" rowspan="5"></td>
+      <td>Uses tripod grip.</td><td class="grade">Q2</td>
+    </tr>
+    <tr><td>Hops on one foot.</td><td class="grade">Q3</td></tr>
+    <tr><td>Recognises danger.</td><td class="grade">Q3</td></tr>
+    <tr><td>Helps with clothing.</td><td class="grade">Q3</td></tr>
+    <tr><td>Uses cutlery.</td><td class="grade">Q3</td></tr>
+
+    <tr>
+      <td class="subject" rowspan="9">Numeracy Development</td>
+      <td>Recites numbers.</td><td class="grade">Q2</td>
+    </tr>
+    <tr><td>Identifies numbers.</td><td class="grade">Q2</td></tr>
+    <tr><td>Uses quantity.</td><td class="grade">Q2</td></tr>
+    <tr><td>Matches shoes to numbers.</td><td class="grade">Q2</td></tr>
+    <tr><td>Notices shapes.</td><td class="grade">Q3</td></tr>
+    <tr><td>Traces patterns.</td><td class="grade">Q2</td></tr>
+    <tr><td>Categorises objects.</td><td class="grade">Q2</td></tr>
+    <tr><td>Anticipates time events.</td><td class="grade">Q2</td></tr>
+    <tr><td>Compares sizes.</td><td class="grade">Q3</td></tr>
+
+    <tr>
+      <td class="subject" rowspan="13">Literacy Development</td>
+      <td>Favourite stories.</td><td class="grade">Q4</td>
+    </tr>
+    <tr><td>Pretend play.</td><td class="grade">Q3</td></tr>
+    <tr><td>Repeats phrases.</td><td class="grade">Q3</td></tr>
+    <tr><td>Fills missing words.</td><td class="grade">Q2</td></tr>
+    <tr><td>Plays with models.</td><td class="grade">Q3</td></tr>
+    <tr><td>Retells stories.</td><td class="grade">Q2</td></tr>
+    <tr><td>Listens to books.</td><td class="grade">Q4</td></tr>
+    <tr><td>Says name and age.</td><td class="grade">Q3</td></tr>
+    <tr><td>Colours within outlines.</td><td class="grade">Q2</td></tr>
+    <tr><td>Draws shapes.</td><td class="grade">Q2</td></tr>
+    <tr><td>Holds pencil correctly.</td><td class="grade">Q2</td></tr>
+    <tr><td>Says words in stories.</td><td class="grade">Q3</td></tr>
+    <tr><td>Joins refrains.</td><td class="grade">Q4</td></tr>
+
+  <table>
+    <tr><th>Subject</th><th>Skills</th><th>Grade</th></tr>
+    <tr>
+      <td class="subject" rowspan="4"></td>
+      <td>Has own friends.</td><td class="grade">Q4</td>
+    </tr>
+    <tr><td>Enjoys mirror image.</td><td class="grade">Q3</td></tr>
+    <tr><td>Uses remote-control toy.</td><td class="grade">Q2</td></tr>
+    <tr><td>Identifies technology.</td><td class="grade">Q3</td></tr>
+  </table>
+
+  <table>
+    <tr><th colspan="5">Skills Grading</th></tr>
+    <tr class="center"><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q5</td></tr>
+    <tr class="center"><td>Weak</td><td>Average</td><td>Good</td><td>Very Good</td><td>Excellent</td></tr>
+  </table>
+
+  <table>
+    <tr>
+      <td><b>Class Teacher's Comments:</b><br>
+      Jayson is a kind boy, he has settled into school nicely and he is enjoying school. Way to go!!!
+      </td>
     </tr>
     <tr>
-      <td>Maintains eye contact with peers and adults while engaged in conversations.</td>
-      <td class="grade">Q3</td>
+      <td class="signature"><b>Director's Signature</b></td>
     </tr>
+  </table>
+
+</div>
+
+</body>
+</html>
