@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Ella School</title>
+<title>Ella School Character Report </title>
 
 <style>
   body {
@@ -118,8 +118,18 @@
     width: 100px;
   }
 
+    @media print {
+    .print-btn { display: none;}    
+  }
 
 </style>
+
+<script>
+  function printReport() {
+    window.print(); 
+  }
+</script>
+
 </head>
 
 <body>
@@ -276,7 +286,7 @@
 </td>
     </tr>
   </table>
-
+  <button class="print-btn" onclick="printReport()">Print</button>
 </div>
 
 </body>
